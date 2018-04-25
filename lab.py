@@ -5,7 +5,6 @@ from skimage import io, color
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import  Image
-np.set_printoptions(threshold='nan')
 filename1='./Im7.tiff'
 rgb = Image.open(filename1)
 rgb = np.asarray(rgb)
